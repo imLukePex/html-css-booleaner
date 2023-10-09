@@ -1,0 +1,15 @@
+/* stili generali di pagina */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(73, 167, 226);
+  background-image: url('img/pattern.png');
+  background-size: contain;
+}
+
+#logo {
+  width: 150px;
+}
