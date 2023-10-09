@@ -38,3 +38,12 @@ section h4, h6 {
   color: rgb(38, 201, 234);
 }
 
+section img {
+  margin-top: 20px;
+}
+
+.first-description, .second-description {
+  font-size: 10px;
+  font-weight: bold;
+}
+
