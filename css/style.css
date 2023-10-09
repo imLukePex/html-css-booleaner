@@ -6,10 +6,18 @@
 
 header {
   background-color: rgb(73, 167, 226);
-  background-image: url('img/pattern.png');
-  background-size: contain;
+  background-image: url('../img/pattern.png');
+  background-size: 20%;
+  height: 100px;
 }
 
 #logo {
-  width: 150px;
+  width: 170px;
+  padding-top: 50px;
+  padding-left: 8px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
 }
