@@ -24,32 +24,37 @@ header {
 }
 
 /* stili prima sezione */
-section h1 {
-  font-size: 40px;
+h1 {
+  font-size: 38px;
   margin-top: 20px;
   line-height: 40px;
 }
 
-section h4, h6 {
+.author {
+  font-size: 18px;
   color: rgb(85, 85, 85);
 }
 
 .author-name {
-  color: rgb(38, 201, 234);
+  color: #20a9e5;
 }
 
-section img {
-  margin-top: 20px;
+.date {
+  font-size: 12px;
+  color: rgb(85, 85, 85);
 }
 
-.first-description, .second-description {
-  font-size: 10px;
-  font-weight: bold;
+.photo {
+  margin: 20px 0;
+}
+
+.photo .caption {
+  font-size: 12px;
 }
 
 /* stili seconda sezione */
 p {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .bold-yellow {
@@ -57,22 +62,18 @@ p {
 }
 
 ul {
-  margin-top: 30px;
-  margin-left: 18px;
+  margin: 30px 15px;
 }
 
 /* stili terza sezione */
 table {
-  margin-top: 20px;
-  width: 100%;
-  height: auto;
   border-spacing: 0;
   text-align: left;
 }
 
 thead {
   color: white;
-  background-color: blue;
+  background-color: #20a9e5;
 }
 
 .text {
@@ -80,36 +81,30 @@ thead {
 }
 
 .odd {
-  background-color: aquamarine;
+  background-color: #b1e5f2;
 }
 
 /* stili footer */
-.title-footer {
-  font-size: 15px;
-  font-weight: bold;
+footer h2 {
+  font-size: 16px;
   color:  rgb(85, 85, 85);
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.first-image {
-  position: relative;
+#image-monitor {
+  background-image: url(../img/monitor.jpg);
 }
 
-#monitor {
-  width: 200px;
-}
-
-#graph {
-  width: 200px;
-}
-
-.first-image::before {
-  content: "Lorem ipsum dolor";
+.image {
+  width: 208px;
+  height: 160px;
+  margin: 10px 0;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
-  position: absolute;
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: 18px;
-  font-weight: bold;
+}
+
+#image-graph {
+  background-image: url(../img/graph.jpg);
 }
