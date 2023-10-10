@@ -2,29 +2,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-#logo, main, footer {
-  padding-left: 8px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* stili dell'header */
 header {
-  background-color: rgb(73, 167, 226);
+  background-color: #4ea0ff;
   background-image: url('../img/pattern.png');
   background-size: 400px;
   height: 100px;
 }
 
 #logo {
-  width: 200px;
-  padding-top: 40px;
-}
-
-/* stili del main */
-
-section {
-  width: 1050px;
+  width: 280px;
+  margin-top: 30px;
 }
 
 /* stili prima sezione */
@@ -38,7 +34,7 @@ section h4, h6 {
   color: rgb(85, 85, 85);
 }
 
-.author {
+.author-name {
   color: rgb(38, 201, 234);
 }
 
@@ -62,5 +58,61 @@ p {
 
 ul {
   margin-top: 30px;
-  padding-left: 18px;
+  margin-left: 18px;
+}
+
+/* stili terza sezione */
+table {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-spacing: 0;
+  text-align: left;
+}
+
+thead {
+  color: white;
+}
+
+.header-table {
+  background-color: blue;
+}
+
+.text {
+  width: 50%;
+}
+
+.odd {
+  background-color: aquamarine;
+}
+
+/* stili footer */
+.title-footer {
+  font-size: 15px;
+  font-weight: bold;
+  color:  rgb(85, 85, 85);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.first-image {
+  position: relative;
+}
+
+#monitor {
+  width: 200px;
+}
+
+#graph {
+  width: 200px;
+}
+
+.first-image::before {
+  content: "Lorem ipsum dolor";
+  color: white;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }

@@ -9,15 +9,18 @@
 <body>
   <!-- parte di intestazione -->
   <header>
-    <img id="logo" src="img/logo.svg" alt="logo-the booleaner">
+    <div class="container">
+      <img id="logo" src="img/logo.svg" alt="logo-the booleaner">
+    </div>
   </header>
 
   <!-- parte di contenuto principale -->
   <main>
+    <div class="container">
     <!-- prima sezione -->
     <section>
-      <h1>Internet deve essere il servizio del "bene pubblico": il <br> manifesto di Tim Berners-Lee</h1>
-      <h4>Scritto da <span class="author">The Booleaner</span></h4>
+      <h1>Internet deve essere il servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+      <div class="author">Scritto da <span class="author-name">The Booleaner</span></div>
       <h6>il 10/10/2020</h6>
 
       <img src="img/tim-1.jpg" alt="tim-1">
@@ -28,7 +31,9 @@
 
     <!-- seconda sezione -->
     <section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <span class="bold-yellow">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</span> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <span class="bold-yellow">laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</span> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
 
       <ul>
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</li>
@@ -37,14 +42,60 @@
       </ul>
     </section>
 
+    <!-- terza sezione -->
     <section>
-      
+      <table>
+        <!-- Intestazione tabella -->
+        <thead>
+          <tr class="header-table">
+            <th>Lorem ipsum dolor</th>
+            <th>Lorem ipsum dolor</th>
+            <th class="text">Lorem ipsum dolor</th>
+          </tr>
+        </thead>
+        <!-- Intestazione tabella -->
+
+        <!-- Corpo tabella -->
+        <tbody>
+          <tr class="odd">
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natua harum.</td>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natua harum.</td>
+          </tr>
+          <tr class="odd">
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natua harum.</td>
+          </tr>
+        </tbody>
+        <!-- Corpo tabella -->
+      </table>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <span class="bold-yellow">cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
     </section>
+    </div>
   </main>
 
   <!-- parte di fondo -->
   <footer>
+    <div class="container">
+      <div class="title-footer">Potrebbero interessarti</div>
 
+      <div class="first-image">
+        <img id="monitor" src="img/monitor.jpg" alt="monitor">
+      </div>
+
+      <div class="first-image">
+        <img id="graph" src="img/graph.jpg" alt="graph">
+      </div>
+    </div>
   </footer>
 </body>
 </html>
